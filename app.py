@@ -25,7 +25,8 @@ def extract_code_blocks(text):
 
     return result.strip() if result else text
 
-
+st.title(":blue[听微-mindmap 测试 🤖]")
+st.divider()
 st.set_page_config(page_title="markmap")
 
 uploaded_file = st.file_uploader(label = "上传文件", type=["txt","doc","docx","pdf"])
