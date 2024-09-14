@@ -2,3 +2,4 @@ streamlit_markmap
 pymupdf
 qianfan
 python-docx
+redis
