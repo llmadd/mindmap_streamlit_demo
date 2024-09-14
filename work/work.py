@@ -1,11 +1,10 @@
-import pymupdf
+
 from .baidu_model import BaiduModel
 from typing import List, Dict, Any, Union, Optional
 from streamlit_markmap import markmap
 import io
 import fitz  # PyMuPDF
 import docx
-from PIL import Image
 from ._PROMPT import *
 
 
