@@ -4,8 +4,8 @@ import qianfan
 from typing import List, Dict, Any
 
 
-os.environ["QIANFAN_ACCESS_KEY"] = "995cbd07f1174a5490176fd02eace66a"
-os.environ["QIANFAN_SECRET_KEY"] = "3b5592144eee4239b3a5c0d93ca4aad9"
+# os.environ["QIANFAN_ACCESS_KEY"] = "995cbd07f1174a5490176fd02eace66a"
+# os.environ["QIANFAN_SECRET_KEY"] = "3b5592144eee4239b3a5c0d93ca4aad9"
 
 
 class BaiduModel():
