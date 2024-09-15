@@ -14,7 +14,9 @@ MARKDOWN_TO_MINDMAP_PROMPT = """
 ## XXXX
 ....
 
-将markdown格式答案放在代码块中输出。
+markdown格式答案需要满足下面要求：
+1. 将markdown格式答案放在代码块中输出。
+2. 思维导图节点内容要保持精简。
 
 {prompt}
 """
