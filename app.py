@@ -41,8 +41,8 @@ for message in st.session_state.messages:
 if uploaded_file is not None:
     file_load = FileLoad()
     st.session_state.content = file_load.read_file(uploaded_file)
-    if len(st.session_state.content):
-        st.session_state.messages.append({"role": "user", "content": st.session_state.content})
+    # if len(st.session_state.content):
+    #     st.session_state.messages.append({"role": "user", "content": st.session_state.content})
 
 model = ChatServer(model_name = "ERNIE-Speed-128K")
 if prompt:
