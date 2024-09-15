@@ -14,8 +14,7 @@ MARKDOWN_TO_MINDMAP_PROMPT = """
 ## XXXX
 ....
 
-通过不同的等级标题表示层级关系,通过-表示叶子节点。
-只允许输出markdown格式内容，禁止输出其他内容。
+将markdown格式答案放在代码块中输出。
 
 {prompt}
 """
